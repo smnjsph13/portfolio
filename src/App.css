@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+
+:root{
+--sidebar-flex:1.5;
+--condiv-flex:6;
+--fontsize-p:1.2rem;
+--fontsize-nav:1.6rem;
+--typing-font:3rem;
+}
+
+*
+{
+margin:0;
+padding: 0;
+}
+
+body
+{
+font-family: 'Raleway';
+}
+
+.App
+{
+display: flex;
+width: 100vw;
+min-height: 100vh;
+}
+
+/* .condiv class is for the right side content container*/
+.condiv
+{
+padding: 100px ;
+background-color: white;
+flex:var(--condiv-flex);
+}
+
+nav
+{
+padding:60px 30px 0px 30px ;
+flex:var(--sidebar-flex);
+background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-background-teddy-0020.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a9d8da020e658e2e575315c6ee52de55);
+background-repeat: no-repeat;
+background-size: cover;
+/* background: linear-gradient(180deg, #034f84 50%, rgba(0,179,231) 80%); */
+}
+
+nav ul
+{
+  font-size:90% ;
+  text-align: right;
+  list-style-type: none;
+}
+
+nav ul li
+{
+  margin:40px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+   color: black;
+  font-size: 200%;
+  font-variant-caps: all-petite-caps;
+  font-weight: bold;
+}
+
+.social
+{
+margin-top: 200px;
+display: flex;
+bottom: 50px;
+justify-content: center;
+
+}
+
+.social i
+{
+padding-right: 30px;
+font-size: 20px;
+color:black;
+}
+
+.social i:hover
+{
+color: cadetblue;
+}
+
+.profilepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.typingeffect {
+  font-size: 2em;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+
+}
+
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}
+p
+{
+font-size: var(--fontsize-p);
+}
+h1,h2,h3,h4,p
+{
+margin: 10px;
+}
+
+.widecard
+{
+border:0px solid #9a9b9c;
+display: flex;
+margin:30px 0px 30px 0px;
+}
+.widecard:hover
+{
+color: #1b1d20;
+background-color: #ffffff;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.skills > ul {
+  list-style-type: none;
+}
+
+.skills > ul > li
+{
+  margin:30px;
+}
