@@ -10,7 +10,7 @@ import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <HashRouter basename='/'>
+    <HashRouter basename='/portfolio'>
       <Router>
         <div className="App">
           <Navbar />
