@@ -70,6 +70,15 @@ nav ul li
   font-weight: bold;
 }
 
+.connect{
+  margin-bottom: 2%;
+  color: gray;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 .social
 {
   margin-bottom: 10%;
@@ -95,10 +104,10 @@ color: cornflowerblue;
   flex-direction: column;
 }
 
-/* 
+
 .subtopic
 {
-margin:10px 10px 30px 10px !important;
+margin:5% 10px 30px 10px !important;
 }
 p
 {
@@ -107,7 +116,7 @@ font-size: var(--fontsize-p);
 h1,h2,h3,h4,p
 {
 margin: 10px;
-} */
+}
 
 .widecard
 {
@@ -120,6 +129,10 @@ margin:30px 0px 30px 0px;
 color: #1b1d20;
 background-color:rgba(128, 128, 128, 0.233);
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.skills {
+  margin:3% 10px 30px 10px !important;
 }
 
 .skills > ul {
