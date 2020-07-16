@@ -12,7 +12,9 @@ class About extends Component {
         </h3>
         <br></br>
         <p>
-          .....................................
+          My name is Simon Joseph Azada. I am from the beautiful country of the Philippines. Currently, I just starting my career in IT/Software industry. Striving to be the one of the best developer in the industry. 
+          <br></br><br></br>
+          Previously, my career was in the Telecommunication industry as a Project Engineer for about 2 years.
         </p>
       </div>
     );
