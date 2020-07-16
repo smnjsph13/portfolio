@@ -72,7 +72,7 @@ nav ul li
 
 .social
 {
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -95,15 +95,7 @@ color: cornflowerblue;
   flex-direction: column;
 }
 
-.typingeffect {
-  font-size: 2em;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  justify-content: center;
-
-}
-
+/* 
 .subtopic
 {
 margin:10px 10px 30px 10px !important;
@@ -115,7 +107,7 @@ font-size: var(--fontsize-p);
 h1,h2,h3,h4,p
 {
 margin: 10px;
-}
+} */
 
 .widecard
 {
@@ -142,6 +134,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("simon.jpg");
   height: 50%;
+  margin-top: 12%;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,27 +144,13 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 .home-text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  /* transform: translate(-50%, -50%); */
+  margin-top: 5%;
+  bottom: 12%;
+  left: 60%;
+  transform: translate(-50%, -50%);
   color: black;
 }
 
-.home-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.home-text button:hover {
-  background-color: #555;
-  color: white;
-}
 
 ul .social {
   margin-bottom: auto;

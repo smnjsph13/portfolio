@@ -8,8 +8,9 @@ class Home extends Component {
         <div className="condiv home">
           <div className="hero-image"></div>
           <div className="home-text">
-            <h1 style={{ fontSize: "50px" }}>All is Well.</h1>
-            <button>Hire me</button>
+            <h1 style={{ fontSize: "40px"}}>
+              <span style={{fontStyle: "Italic", fontWeight: "bolder"}}>Everything</span> is <span style={{textDecoration: "line-through", color: "gray"}}>IM</span><span style = {{textDecoration: "underline"}}>POSSIBLE</span>.
+            </h1>
           </div>
         </div>
       </React.Fragment>
