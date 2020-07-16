@@ -8,8 +8,7 @@ class Home extends Component {
         <div className="condiv home">
           <div className="hero-image"></div>
           <div className="home-text">
-            <h1 style={{ fontSize: "50px" }}>Call me "Mon"</h1>
-            <p>And I am Mr.Pogi of Valenzuela</p>
+            <h1 style={{ fontSize: "50px" }}>All is Well.</h1>
             <button>Hire me</button>
           </div>
         </div>
