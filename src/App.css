@@ -35,6 +35,52 @@ background-color: white;
 flex:var(--condiv-flex);
 }
 
+@media screen and (max-width: 700px) {
+  nav ul {
+    font-size: 70%;
+    text-align: center;
+    list-style-type: none;
+  }
+  .myname {
+    font-size: 60%;
+    color: white;
+    font-weight: bolder;
+  }
+  .myjob {
+    font-size: 40%;
+    color: cornflowerblue;
+    font-weight: bolder;
+  }
+  .social i
+  {
+    font-size: 15px;
+    color: grey;
+  }
+} 
+
+@media screen and (min-width: 700px) {
+  nav ul {
+    font-size: 120%;
+    text-align: center;
+    list-style-type: none;
+  }
+  .myname {
+    font-size: 90%;
+    color: white;
+    font-weight: bolder;
+  }
+  .myjob {
+    font-size: 70%;
+    color: cornflowerblue;
+    font-weight: bolder;
+  }
+  .social i
+  {
+    font-size: 20px;
+    color: grey;
+  }
+}
+
 nav
 {
 padding:3% 0 0 0 ;
@@ -47,12 +93,12 @@ justify-content: space-between;
 flex-direction: column;
 }
 
-nav ul
+/* nav ul
 {
-  font-size:110% ;
+  font-size:120% ;
   text-align: center;
   list-style-type: none;
-}
+} */
 
 nav ul li
 {
@@ -87,11 +133,6 @@ nav ul li
   justify-content: space-evenly;
 }
 
-.social i
-{
-font-size: 20px;
-color: grey;
-}
 
 .social i:hover
 {
@@ -196,9 +237,8 @@ ul .social {
   background: cornflowerblue;
 }
 
-.skilllogo {
-  width: 50px;
-  height: 50px;
-  padding-bottom: 20px;
-  padding-right: 20px;
+.icons {
+  font-size: 100px;
+  margin-top: 8%;
 }
+

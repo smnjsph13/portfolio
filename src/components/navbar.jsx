@@ -12,8 +12,8 @@ class Navbar extends Component {
       <React.Fragment>
         <nav>
           <ul>
-            <div id="home"><img class="image_on" src={profilepic} alt="logo" /><img class="image_off" src={profilepic1} alt="logo" /></div>
-            <p style={{lineHeight: "70%"}}><span style={{fontSize: "90%", color: "white", fontWeight: "bolder"}}>Simon Joseph Azada</span><br></br><span style={{color:'cornflowerblue', fontSize: "70%", fontStyle: 'italic', fontWeight: "bold"}}>Front End Web Developer</span></p><br></br>
+            <div id="home"><img className="image_on" src={profilepic} alt="logo" /><img className="image_off" src={profilepic1} alt="logo" /></div>
+            <p style={{lineHeight: "70%"}}><span className="myname" >Simon Joseph Azada</span><br></br><span className="myjob">Front End Web Developer</span></p><br></br>
             <Navitem item="Home" tolink="/"></Navitem>
             <Navitem
               item="About"
