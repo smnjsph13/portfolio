@@ -6,15 +6,15 @@ class Home extends Component {
     return (
       <React.Fragment>
         <div className="condiv home">
-          <div className="hero-image"></div>
-          <div className="home-text">
-            <h1 style={{ fontSize: "40px", textShadow: "0 0 20px cornflowerblue"}}>
-              <span style={{fontStyle: "Italic", fontWeight: "bolder"}}>Everything</span> is <span style={{textDecoration: "line-through", color: "gray"}}>IM</span><span style = {{textDecoration: "underline"}}>POSSIBLE</span>.
-            </h1>
-          </div>
+            <div className="hero-image">
+              <div className="home-text" style={{ textShadow: "0 0 20px crimson", color: "white"}}>
+                  <span style={{fontStyle: "Italic", fontWeight: "bolder"}}>Everything</span> is <span style={{textDecoration: "line-through", color: "black", fontWeight:"bolder"}}>IM</span><span style = {{textDecoration: "underline", fontWeight:"bolder"}}>POSSIBLE</span>.
+              </div>
+            </div>
         </div>
       </React.Fragment>
     );
   }
 }
 export default Home;
+  
