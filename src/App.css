@@ -96,6 +96,7 @@ flex:var(--sidebar-flex);
 background-image: url(https://www.setaswall.com/wp-content/uploads/2019/03/Starry-Sky-Man-Lantern-Night-1080x2400.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+background-position: right;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
