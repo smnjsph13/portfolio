@@ -27,10 +27,10 @@ class Navbar extends Component {
               item="Skills"
               tolink="/skills"        
             ></Navitem>
-            {/* <Navitem
-              item="Contact"
-              tolink="/contact"        
-            ></Navitem> */}
+            <Navitem
+              item="Works"
+              tolink="/works"        
+            ></Navitem>
           </ul>
           <Social />
         </nav>

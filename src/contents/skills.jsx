@@ -1,11 +1,4 @@
 import React, { Component } from "react";
-// import htmllogo from "../img/html.png";
-// import csslogo from "../img/css.png";
-// import jslogo from "../img/js.png";
-// import reactlogo from "../img/react.jpg";
-// import bslogo from "../img/bs.png";
-// import ghlogo from "../img/gh.jpg";
-// import herologo from "../img/hero.png";
 
 class Skills extends Component {
   constructor(props) {

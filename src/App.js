@@ -3,7 +3,7 @@ import Home from "./contents/home";
 import About from "./contents/about";
 import Education from "./contents/education";
 import Skills from "./contents/skills";
-import Contact from "./contents/contact";
+import Works from "./contents/works";
 import "./App.css";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/navbar";
@@ -26,8 +26,8 @@ function App() {
           <Route path="/skills">
             <Skills />
           </Route>
-          <Route path="/contact">
-            <Contact />
+          <Route path="/works">
+            <Works />
           </Route>
         </Switch>
       </div>
